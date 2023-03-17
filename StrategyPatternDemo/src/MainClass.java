@@ -29,7 +29,7 @@ public class MainClass {
 	DiscountStrategy empDiscount=new EmployeeDiscount(); // first
 	Pay order1=new Pay(vetDiscount);
 	double afterDiscount=order1.applyDiscount(stuDiscount.applyDiscount(empDiscount.applyDiscount(yourTotal)));
-	System.out.println(afterDiscount+"Thank you");
+	System.out.println(afterDiscount+"Thank you for husing our project");
   }
 }
 
